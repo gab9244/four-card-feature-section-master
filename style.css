@@ -90,7 +90,7 @@ aside {
 }
 
 
-    @media (max-width: 425px)  { 
+    @media (max-width: 50rem)  { 
         .grid {
             display: grid;
             gap: 10px ;
@@ -116,6 +116,7 @@ aside {
         display: grid;
         padding: 10%;
         place-items: center;
+        padding-bottom: 20%;
      
          
     }
@@ -125,7 +126,7 @@ aside {
     menu {
         grid-area: 1/1;
         border-top: 5px  solid var(--cor1);
-        margin-top: 20%;
+        margin-top: 10%;
       
         
     }
@@ -151,7 +152,7 @@ aside {
     place-content: end;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 120vh;
 
     }
    
